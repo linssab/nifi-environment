@@ -7,7 +7,7 @@ services:
         image: 'gvenzl/oracle-xe:18-slim'
         restart: always
         ports:
-            - '1521:1521'
+            - '15213:1521'
         cpus : 1
         mem_limit: 2G
         mem_reservation: 2G
